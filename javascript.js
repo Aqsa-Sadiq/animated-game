@@ -1,3 +1,12 @@
+//starter page
+window.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    document.getElementById("start-screen").style.display = "none";
+    document.getElementById("game-container").style.display = "block";
+  }
+});
+
+
 // Fighter 1 (Left Side)
 var fighter1 = document.getElementById("fighter1");
 var speed1 = 50;
