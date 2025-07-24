@@ -13,7 +13,27 @@ color: black;
   font-family: sans-serif;
   font-size: 2rem;
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+#controls-info {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #080808;
+  text-align: center;
+  display: flex;
+}
+
+kbd {
+  
+  border-radius: 4px;
+  background-color: #eee;
+  border: 1px solid #999;
+  font-weight: bold;
+  font-family: monospace;
+  padding: 4px,8px
+}
+
 
 .container {
   background-image: url(http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-24.gif);

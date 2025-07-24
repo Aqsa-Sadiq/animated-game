@@ -3,9 +3,10 @@ window.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     document.getElementById("start-screen").style.display = "none";
     document.getElementById("game-container").style.display = "block";
+    
+     enableFighterControls();
   }
 });
-
 
 // Fighter 1 (Left Side)
 var fighter1 = document.getElementById("fighter1");
